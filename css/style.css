@@ -73,6 +73,7 @@ main {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.8);
   background-blend-mode: multiply;
+  background-attachment: fixed;
 }
 
 .section-padding {
@@ -105,3 +106,14 @@ main .container .brandLinks {
   left: 0;
   z-index: -1;
 }
+
+.subtitle {
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.about {
+  padding-bottom: 70px;
+}
+
